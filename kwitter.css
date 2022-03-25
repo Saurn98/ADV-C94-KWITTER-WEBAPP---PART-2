@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+#user
+{
+    border-color: black;
+    background-color: yellow;
+    border-width: 0.2rem;
+    width: 200px;
+    height: 20px;
+}
+.btn
+{
+    width: 150px;
+    height: 50px;
+    border: none;
+    color: white;
+    background-color: rgb(255, 0, 68);
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 0 #f9e506;
+    transition: ease-out 0.3s;
+    font-size: 2rem;
+    outline: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 4px;
+    background-color: #25252A;
+}
+.btn:hover
+{
+    box-shadow: inset 150px 0 0 0 #f9e506;
+    cursor: pointer;
+    color: #000;
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 4px;
+    background-color: #25252A;
+}
